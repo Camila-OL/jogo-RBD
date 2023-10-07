@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.area-total {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+.area-int {
+    max-width: 500px;
+    background-image: url('images/neon.jpg');
+    background-position: top;
+    background-size: cover;
+    border: 10px double transparent;
+    box-shadow: inset 3px 3px 5px red, 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 50px red, 0 0 60px red;
+    padding: 20px;
+    height: 100vh;
+}
+.area-int .title {
+    color: #d5f5fe;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    border: 2px double transparent;
+    box-shadow: 0 0 30px #ff00de;
+}
+.logo img:nth-child(1) {
+    margin-top: 40%;
+    width: 350px;
+    
+}
+.imgv {
+    background-image: url('images/cd-vinyl-removebg-preview.png');
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    animation: girar 5s linear infinite;
+}
+@keyframes girar {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px double #ff00de;
+    box-shadow: 0 0 30px #ff00de;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+input:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+.start {
+    width: 120px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: 'Black Ops One', cursive;
+    background-color: #d5f5fe;
+    color: black;
+}
+.content {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('images/neon.jpg');
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 15%;
+    position: absolute;
+    top: -21%;
+    width: 370px;
+    height: 650px;
+}
+.resp {
+    text-align: center;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 15%;
+}
+.resp button {
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    background-color: black;
+    color: #d5f5fe;
+    font-family: 'Black Ops One', cursive;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px#d5f5fe;
+    border: 2px double #ff00de;
+}
+audio {
+    margin-top: 15%;
+    height: 20px;
+    width: 200px;
+    box-shadow: 0 0 30px#d5f5fe;
+    border: 2px double #ff00de;
+    background-color: #d5f5fe;
+    border-radius: 10px;
+}
+.images img {
+    width: 250px;
+}
+.content .reiniciar {
+    margin-top: 40%;
+    background-color: #d5f5fe;
+    color: black;
+    font-family: 'Black Ops One', cursive;
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px double #ff00de;
+    box-shadow: 0 0 10px#d5f5fe;
+}
+.content .sair {
+    margin-top: 3%;
+    background-color: red;
+    color: #d5f5fe;
+    font-family: 'Black Ops One', cursive;
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px double #ff00de;
+    box-shadow: 0 0 10px#d5f5fe;
+}
+
+.content .text {
+    font-family: 'Black Ops One', cursive;
+    color: #d5f5fe;
+    -webkit-text-stroke: 1px #ff00de;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text span {
+    display: table-cell;
+    animation: animate 2s ease infinite;
+    animation-delay: 0.3s;
+}
+@keyframes animate {
+    0%, 100% {
+        color: #ff00de;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #d5f5fe,
+        0 0 10px #d5f5fe,
+        0 0 40px #d5f5fe,
+        0 0 60px #d5f5fe;
+
+    }
+
+    5%, 95% {
+        color:#d5f5fe;
+        filter: blur(0px);
+        
+    }
+}
