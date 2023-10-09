@@ -188,7 +188,7 @@ audio {
     }
 }
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:360px) and (max-width:411px) {
     .area-int {
         max-width: 412px;
         height: 100vh;
@@ -211,5 +211,12 @@ audio {
         margin-top: 15%;
         top: 3%;
         left: -2%;
+    }
+}
+@media screen and (min-width:412px) and (max-width: 412px) {
+    .content {
+        margin-top: 30%;
+        top: 3%;
+        left: 5%;
     }
 }
