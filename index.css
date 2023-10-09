@@ -213,7 +213,7 @@ audio {
         left: 1%;
     }
 }
-@media screen and (min-width:412px) and (max-width: 412px) {
+@media screen and (min-width:412px) and (max-width: 480px) {
     .content {
         margin-top: 30%;
         top: 3%;
