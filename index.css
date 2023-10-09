@@ -210,7 +210,7 @@ audio {
     .content {
         margin-top: 15%;
         top: 3%;
-        left: -2%;
+        left: 1%;
     }
 }
 @media screen and (min-width:412px) and (max-width: 412px) {
