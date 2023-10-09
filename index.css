@@ -196,10 +196,20 @@ audio {
     }
     .imgv {
         position: absolute;
-        top: 25%;
+        top: 20%;
+        left: 5%;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
     }
     .logo img:nth-child(1) {
-    margin-top: 85%;
+        margin-top: 85%;
     
-}
+    }
+    .content {
+        margin-top: 15%;
+        top: 3%;
+        left: -2%;
+    }
 }
