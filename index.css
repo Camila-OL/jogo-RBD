@@ -187,3 +187,19 @@ audio {
         
     }
 }
+
+@media screen and (max-width:412px) {
+    .area-int {
+        max-width: 412px;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .imgv {
+        position: absolute;
+        top: 20%;
+    }
+    .logo img:nth-child(1) {
+    margin-top: 78%;
+    
+}
+}
