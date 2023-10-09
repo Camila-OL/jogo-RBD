@@ -196,10 +196,10 @@ audio {
     }
     .imgv {
         position: absolute;
-        top: 20%;
+        top: 25%;
     }
     .logo img:nth-child(1) {
-    margin-top: 78%;
+    margin-top: 85%;
     
 }
 }
