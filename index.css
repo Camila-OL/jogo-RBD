@@ -188,16 +188,10 @@ audio {
     }
 }
 
-@media screen and (min-width:360px) and (max-width:411px) {
-    .area-int {
-        max-width: 412px;
-        height: 100vh;
-        overflow: hidden;
-    }
+@media screen and (max-width:1150px) {
     .imgv {
-        position: absolute;
         top: 20%;
-        left: 5%;
+        
     }
     .logo {
         display: flex;
@@ -207,16 +201,12 @@ audio {
         margin-top: 85%;
     
     }
-    .content {
-        margin-top: 15%;
-        top: 3%;
-        left: 1%;
+    .align-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        top: -50%;
     }
 }
-@media screen and (min-width:412px) and (max-width: 480px) {
-    .content {
-        margin-top: 30%;
-        top: 3%;
-        left: 5%;
-    }
-}
+
