@@ -184,4 +184,13 @@ audio {
     }
 }
 
+@media (max-width:700px) {
+    .imgv {
+        top: 20%;
+    }
+    .logo img:nth-child(1) {
+        margin-top: 70%;
+    }
+}
+
 

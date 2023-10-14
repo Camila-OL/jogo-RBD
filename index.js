@@ -72,12 +72,12 @@ start.addEventListener('click', () => {
             //trocar imagem clicar play
             aud.addEventListener('play', () => {
                 image.src = arm[3]
-                image.style.top = '50%'
+                image.style.top = '60%'
             })
             //trocar imagem clicar pause
             aud.addEventListener('pause', () => {
                 image.src = arm[4]
-                image.style.top = '42%'
+                image.style.top = '52%'
             })
             //trocar lista
             lst.innerHTML = armL[1]
@@ -121,11 +121,11 @@ start.addEventListener('click', () => {
                     //trocar imagem 2 play 
                     aud.addEventListener('play', () => {
                         image.src = arm[7]
-                        image.style.top = '50%'
+                        image.style.top = '58%'
                     })
                     aud.addEventListener('pause', () => {
                         image.src = arm[6]
-                        image.style.top = '48%'
+                        image.style.top = '55%'
                     })
                     //trocar lista 2
                     lst.innerHTML = armL[2]
@@ -147,7 +147,7 @@ start.addEventListener('click', () => {
                         imgTrue = document.createElement('img')
                         imgTrue.src = arm[9]
                         imgTrue.style.width = '400px'
-                        imgTrue.style.top = '70%'
+                        imgTrue.style.top = '73%'
                         imgTrue.style.left = '6%'
                         imgTrue.style.position = 'absolute'
                         espImage.appendChild(imgTrue)
