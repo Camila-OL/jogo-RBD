@@ -11,6 +11,7 @@ let nam = document.querySelector('.name')
 let cont = document.querySelector('.content')
 let exit = document.querySelector('.sair')
 let title = document.querySelector('.title')
+let areaT = document.querySelector('.area-total')
 
 
 start.addEventListener('click', () => {
@@ -18,6 +19,7 @@ start.addEventListener('click', () => {
     start.style.display = 'none'
     nam.style.display = 'none'
     cont.style.display = 'flex'
+    areaT.style.display = 'none'
       
     let arm = n[0].images
     let armA = n[0].audios
@@ -133,19 +135,20 @@ start.addEventListener('click', () => {
                         title.style.display = 'none'
                         rein.style.display = 'block'
                         exit.style.display = 'block'
+                        cont.style.width = '300px'
                         let nam = document.querySelector('.name').value
                         let namM = nam.toUpperCase()
                         aud.parentNode.removeChild(aud)
                         image.parentNode.removeChild(image)
                         list.parentNode.removeChild(list)
                         //texto
-                        text.innerHTML = `<span> PARABÉNS VOCÊ É REALMENTE </br> FÃ ${namM} </span>`
+                        text.innerHTML = `<span> PARABÉNS VOCÊ </br> É REALMENTE </br> FÃ ${namM} </span>`
                         //trocar imagem 3
                         imgTrue = document.createElement('img')
                         imgTrue.src = arm[9]
                         imgTrue.style.width = '400px'
                         imgTrue.style.top = '70%'
-                        imgTrue.style.left = '-1%'
+                        imgTrue.style.left = '6%'
                         imgTrue.style.position = 'absolute'
                         espImage.appendChild(imgTrue)
                         //parte 3 audio

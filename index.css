@@ -3,12 +3,9 @@ body {
     padding: 0;
     color: white;
 }
-.area-total {
+.area-total, .area-total-cont {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    
-    
 }
 .area-int {
     max-width: 500px;
@@ -92,12 +89,11 @@ input:focus {
     background-image: url('images/neon.jpg');
     background-position: bottom;
     background-size: cover;
-    border-radius: 30px;
-    margin-top: 15%;
     position: absolute;
-    top: -21%;
-    width: 370px;
-    height: 650px;
+    height: 100vh;
+    padding: 5%;
+    border: 10px double transparent;
+    box-shadow: inset 3px 3px 5px red, 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 50px red, 0 0 60px red;
 }
 .resp {
     text-align: center;
@@ -188,25 +184,4 @@ audio {
     }
 }
 
-@media screen and (max-width:1150px) {
-    .imgv {
-        top: 20%;
-        
-    }
-    .logo {
-        display: flex;
-        justify-content: center;
-    }
-    .logo img:nth-child(1) {
-        margin-top: 85%;
-    
-    }
-    .align-content {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        position: relative;
-        top: -60%;
-    }
-}
 
