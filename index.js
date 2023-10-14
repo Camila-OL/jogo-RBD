@@ -1,9 +1,5 @@
 let n = JSON.parse(localStorage.getItem('data'))
 
-let arm = n[0].images
-let armA = n[0].audios
-let armL = n[0].listas
-
 
 let start = document.querySelector('.start')
 let espImage = document.querySelector('.images')
@@ -23,6 +19,10 @@ start.addEventListener('click', () => {
     nam.style.display = 'none'
     cont.style.display = 'flex'
       
+    let arm = n[0].images
+    let armA = n[0].audios
+    let armL = n[0].listas
+
     //parte 1
         //add imagem 1
         let image = document.createElement('img')
