@@ -76,12 +76,14 @@ start.addEventListener('click', () => {
             //trocar imagem clicar play
             aud.addEventListener('play', () => {
                 image.src = arm[3]
-                image.style.top = '60%'
+                image.style.width = '300px'
+                image.style.top = '56%'
             })
             //trocar imagem clicar pause
             aud.addEventListener('pause', () => {
                 image.src = arm[4]
-                image.style.top = '52%'
+                image.style.width = '250px'
+                image.style.top = '50%'
             })
             //trocar lista
             lst.innerHTML = armL[1]
@@ -101,7 +103,7 @@ start.addEventListener('click', () => {
                 //add imagem erro
                 let imgErro = document.createElement('img')
                 imgErro.src = arm[5]
-                imgErro.style.marginTop = '90px'
+                imgErro.style.width = '280px'
                 espImage.appendChild(imgErro)
     
                 //reiniciar
@@ -125,11 +127,13 @@ start.addEventListener('click', () => {
                     //trocar imagem 2 play 
                     aud.addEventListener('play', () => {
                         image.src = arm[7]
-                        image.style.top = '58%'
+                        image.style.width = '300px'
+                        image.style.top = '56%'
                     })
                     aud.addEventListener('pause', () => {
                         image.src = arm[6]
-                        image.style.top = '55%'
+                        image.style.top = '45%'
+                        image.style.width = '280px'
                     })
                     //trocar lista 2
                     lst.innerHTML = armL[2]
@@ -189,7 +193,8 @@ start.addEventListener('click', () => {
                             //add imagem erro
                             let imgErro = document.createElement('img')
                             imgErro.src = arm[8]
-                            imgErro.style.marginTop = '30%'
+                            rein.style.marginBottom = '40%'
+                            imgErro.style.width = '300px'
                             espImage.appendChild(imgErro)
                 
                             //reiniciar

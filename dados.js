@@ -1,9 +1,9 @@
 let dados = [{
     images: ['images/miaPlay.png', 'images/miaIntro.gif', 'images/miaFail.png',
-            'images/roberta-play1.gif', 'images/roberta-intro.png', 'images/roberta-erro.png',
-            'images/lupi-intro.png', 'images/lupi-play.gif', 'images/lupi-erro.png',
+            'images/robertaPlay.gif', 'images/robertaIntro.png', 'images/robertaFail.png',
+            'images/lupIntro.png', 'images/lupPlay.gif', 'images/lupFail.png',
             'images/RBD1.gif'],
-    audios: ['audio/Aún Hay Algo.mp3', 'audio/Tras De Mí.mp3','audio/UMA MENINA.mp3', 'audio/RBD - Este Corazón (Lyric Video)(MP3_160K).mp3',
+    audios: ['audio/Aún Hay Algo.mp3', 'audio/Tras De Mí.mp3','audio/cuando.mp3', 'audio/RBD - Este Corazón (Lyric Video)(MP3_160K).mp3',
             'audio/fail.mp3'],
     listas: [['<button class="hay"> Aún Hay Algo </button>', 
               '<button class="error"> Así soy yo </button>',
@@ -15,7 +15,7 @@ let dados = [{
             '<button class="tras"> Tras De Mí </button>',
             '<button class="error"> Sálvame </button>'],
         
-            ['<button class="error"> Esse coração </button>', 
+            ['<button class="error"> Un poco de tu amor </button>', 
             '<button class="error"> Medley Rebelde </button>',
             '<button class="error"> No Pares </button>',
             '<button class="cuan"> Cuando el amor se acaba </button>']]
