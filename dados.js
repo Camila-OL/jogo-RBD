@@ -1,5 +1,5 @@
 let dados = [{
-    images: ['images/mia-intro.png', 'images/mia-play1.gif', 'images/mia-erro.png',
+    images: ['images/miaPlay.png', 'images/miaIntro.gif', 'images/miaFail.png',
             'images/roberta-play1.gif', 'images/roberta-intro.png', 'images/roberta-erro.png',
             'images/lupi-intro.png', 'images/lupi-play.gif', 'images/lupi-erro.png',
             'images/RBD1.gif'],

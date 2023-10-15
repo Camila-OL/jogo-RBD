@@ -127,7 +127,8 @@ audio {
     width: 250px;
 }
 .content .reiniciar {
-    margin-top: 40%;
+    margin-top: 35%;
+    margin-bottom: 70%;
     background-color: #d5f5fe;
     color: black;
     font-family: 'Black Ops One', cursive;
@@ -190,6 +191,10 @@ audio {
     }
     .logo img:nth-child(1) {
         margin-top: 70%;
+    }
+    .content .reiniciar {
+        margin-top: 70%;
+        margin-bottom: 110%;
     }
 }
 

@@ -51,10 +51,14 @@ start.addEventListener('click', () => {
         //trocar imagem clicar play
         aud.addEventListener('play', () => {
             image.src = arm[1]
+            image.style.width = '200px'
+            image.style.top = '62%'
         })
         //trocar imagem clicar pause
         aud.addEventListener('pause', () => {
             image.src = arm[0]
+            image.style.width = '400px'
+            image.style.top = '52%'
         })
         
 
@@ -207,6 +211,7 @@ start.addEventListener('click', () => {
         error.forEach(element => {
             element.addEventListener('click', () => {
                 rein.style.display = 'block'
+                cont.style.padding = '8%'
                 const fail = new Audio(armA[4])
                 fail.play()
 
@@ -217,9 +222,8 @@ start.addEventListener('click', () => {
                 //add imagem erro
                 let imgErro = document.createElement('img')
                 imgErro.src = arm[2]
-                imgErro.width = 100
+                imgErro.style.width = '250px'
                 espImage.appendChild(imgErro)
-                espImage.style.marginTop = '30%'
     
                 //reiniciar
                 rein.innerHTML = 'Reiniciar'
