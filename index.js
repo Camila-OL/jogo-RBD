@@ -239,7 +239,7 @@ start.addEventListener('click', () => {
                                 imgTrue.style.width = '400px'
                                 imgTrue.style.height = '250px'
                                 imgTrue.style.top = '63%'
-                                imgTrue.style.left = '6%'
+                                imgTrue.style.left = '3%'
                                 imgTrue.style.position = 'absolute'
                                 espImage.appendChild(imgTrue)
                                 //parte 3 audio
